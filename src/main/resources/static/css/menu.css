@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: sans-serif;
+    padding: 100px 40px 0;
+}
+ 
+.header{
+    background-color: bisque; 
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+ 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+ 
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+ 
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+ 
+.nav-menu{
+    display: flex;
+    margin-right: 80px;
+    list-style: none;
+    line-height: 80px;
+}
+ 
+.nav-menu-item{
+    font-size: 20px;
+    margin: 0 10px;
+}
+ 
+.nav-menu-link{
+    padding: 10px 14px;
+    border-radius: 15px;
+}
+ 
+.nav-menu-link:hover{
+    background-color: #024070;
+    padding: 10px 14px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
